@@ -10,14 +10,15 @@
 
 # 安装使用
 ## 安装依赖
-`pip install -r requirements.txt`
-
-## 配置数据
-修改mysql.py中MySQL数据库信息
-
-## 使用
 - `git clone https://github.com/runnull/Python-SimpleProxyPool.git`
 - `cd Python-SimpleProxyPool`
+- `pip install -r requirements.txt`
+
+## 配置数据
+- 修改mysql.py中MySQL数据库信息
+- 将ip.sql导入到数据库中
+
+## 使用
 - `python run.py`
 
 暂时只写了这些，大家有好的想法可以提出
