@@ -16,9 +16,9 @@
 修改mysql.py中MySQL数据库信息
 
 ## 使用
-`git clone https://github.com/runnull/Python-SimpleProxyPool.git`
-`cd Python-SimpleProxyPool`
-`python run.py`
+- `git clone https://github.com/runnull/Python-SimpleProxyPool.git`
+- `cd Python-SimpleProxyPool`
+- `python run.py`
 
 暂时只写了这些，大家有好的想法可以提出
 
