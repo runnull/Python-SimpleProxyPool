@@ -1,0 +1,2 @@
+# Python-SimpleProxyPool
+简单的使用Python制作的代理池程序，带有简单采集和验证功能，代理数据来自网络爬虫，花一下午学Python后做的第一个程序
