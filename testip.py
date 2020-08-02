@@ -43,13 +43,13 @@ def verify_ip(data):
 
     except:
         mysql.UPDATE_IP(ida,'1')
-        print('error')
+        print('Error')
 
 
 def test(ip_list):
     for ip in ip_list:
         data = [ip[0],ip[1]]
-        t = threading.Thread(target=verify_ip,args=(data,)).start()
+        threading.Thread(target=verify_ip,args=(data,)).start()
         # t.setDaemon(True)
         time.sleep(1)
 
